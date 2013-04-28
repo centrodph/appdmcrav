@@ -1,4 +1,4 @@
-
+ *{font-family: 'HelveticaLT-Condensed-Light',Arial;}
 body{ margin: 0; padding: 0; background:#e2001a; height: 100%;}
 
 
@@ -7,3 +7,71 @@ body{ margin: 0; padding: 0; background:#e2001a; height: 100%;}
  *************************************************************/
 /*init*/
 #logo_init{ max-width: 70%; position: absolute; top: 50%; left: 50%;}
+
+/************************************************************* 
+	LOGIN
+ *************************************************************/
+#container-login {
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+#logo-interior {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding:19% 0 5% 0;
+}
+#logo-interior a img {
+	max-height: 108px;
+	text-align: center;
+	margin: 0 auto;
+}
+#login-form {
+	width: 80%;  
+	margin: 0 auto;
+	padding:0 0 10% 0;
+}
+.box-input,.box-submit {
+	margin: 0 auto;
+}
+.box-input input#user,
+.box-input input#pass{
+	border: none;
+	height: 80px; line-height: 80px;
+	box-shadow: none;
+	color: #969696;
+	font-style: italic;
+	border: none;
+	margin: 0 0 1px 0;
+    padding: 0 10px;
+}
+.ui-input-text{ background: #fff;}
+
+
+.ui-input-search, div.ui-input-text,div.ui-input-text,.ui-btn-inner{ margin: 0; padding: 0;}
+
+
+#submitLogin{
+  background: #aa0014; color:#FFF; 	height: 80px; line-height: 80px; margin: 0; padding: 0;
+  font-weight: bold; text-decoration: none;
+}
+#submitLogin.ui-btn-hover-a{ background: #c20118;}
+
+#registro-ahora {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	color: #FFF;
+	text-shadow: none;
+    font-size: 22px;
+}
+#registro-ahora a {
+	color: #fff;
+	font-weight: normal;
+	text-shadow:none; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+	text-decoration:underline;
+    font-size: 22px;
+}
