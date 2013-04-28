@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="ui-mobile">
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=yes">
+	<link rel="stylesheet" href="../base/jquery.css">
+    <link rel="stylesheet" href="../base/crav.min.css">
+    <link rel="stylesheet" href="../web/css.css">
+	<script src="../base/jquery-1.js"></script>
+	<script src="../base/jquery.js"></script>
+    <script src="../web/dev.js"></script>
+</head> 
+<body>
+<div id="fullbg">
+
+<div data-role="page" id="login">
+ 	<div id="container-login">
+		<div id="logo-interior"><a href="#two"><img src="../web/logo.png" /></a></div>
+        <div id="login-form">
+        	<form id="logeo">
+                <div class="box-input">
+                     <input type="text" name="user" id="user" placeholder="Usuario" />
+                    <div class="clear"></div>
+                </div>
+                <div class="box-input">
+                     <input type="password" name="pass" id="pass" placeholder="Contraseña"    />
+                    <div class="clear"></div>
+                </div>  
+                <div class="box-submit">   
+                    <div class="btnsubmit">       
+                        <a href="#submitLogin" onClick="checkLogin();"  data-role="button" class="my-btn" id="submitLogin">Iniciar Sesión</a>
+                    </div>
+                    <div class="clear"></div>
+                </div>     
+            </form>       
+        </div>
+        <div id="registro-ahora">
+        	<p>¿No dispone de una cuenta?</p>
+            <p><a href="#">Regístrese ahora</a></p>
+        </div>
+	</div>
+</div><!-- /page inicial -->
+</div>
+
+</body>
+</html>
