@@ -1,17 +1,16 @@
 
-$(document).ready(function(){
+function onDeviceReady() {
+
   
-    var width  = $(window).width();
-    var height = $(window).height();
-    
+    alert("dd");
 	/*****************************************************************
 	center init
 	*****************************************************************/
-   var logoInit=$('#logo_init');
+   /*var logoInit=$('#logo_init');
    var logoInitHeight=$(logoInit).height();
    var logoInitWidth=$(logoInit).width();
    $(logoInit).css('margin-left','-'+logoInitWidth/2+'px');
-   $(logoInit).css('margin-top','-'+logoInitHeight/2+'px');
+   $(logoInit).css('margin-top','-'+logoInitHeight/2+'px');*/
    
    
 	equalHeight($(".eqh"));

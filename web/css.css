@@ -6,7 +6,8 @@ body{ margin: 0; padding: 0; background:#e2001a; height: 100%;}
 	PAGINA INICIAL
  *************************************************************/
 /*init*/
-#logo_init{ max-width: 70%; position: absolute; top: 50%; left: 50%;}
+#log{ max-width: 70%; margin: 0 auto; display: block; padding-top: 45%;}
+#logo_init{ max-width: 100%;}
 
 /************************************************************* 
 	LOGIN

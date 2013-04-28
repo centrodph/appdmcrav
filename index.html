@@ -10,14 +10,21 @@
 <link rel="stylesheet" href="web/css.css">
 <script src="base/jquery-1.js"></script>
 <script src="base/jquery.js"></script>
+<script src="web/cordova-2.6.0.js"></script>
 <script src="web/dev.js"></script>
+<script type="text/javascript" charset="utf-8">
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+</script>
 </head>
-<body>
+<body onload="onLoad()">
+
         
   
         <!--SPLASH-->
         <div data-role="page" id="one" data-theme="a">
-        <a href="#login" id="login"><img src="web/logo.png" id="logo_init" /></a>
+          <a href="#login" id="log"><img src="web/logo.png" id="logo_init" /></a>
         </div>
         
         <!--SPLASH-->
