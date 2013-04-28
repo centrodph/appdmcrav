@@ -1,8 +1,7 @@
 
-function onDeviceReady() {
-
+$(document).ready(function(){
   
-    alert("dd");
+    
 	/*****************************************************************
 	center init
 	*****************************************************************/
@@ -10,10 +9,12 @@ function onDeviceReady() {
    var logoInitHeight=$(logoInit).height();
    var logoInitWidth=$(logoInit).width();
    $(logoInit).css('margin-left','-'+logoInitWidth/2+'px');
-   $(logoInit).css('margin-top','-'+logoInitHeight/2+'px');*/
+   $(logoInit).css('margin-top','-'+logoInitHeight/2+'px');
    
    
 	equalHeight($(".eqh"));
+  */
+
 	
 	/*****************************************************************
 	Loading
